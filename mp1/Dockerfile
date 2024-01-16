@@ -4,7 +4,7 @@ FROM ubuntu:latest
 # Update and install OPAM
 RUN apt-get update && apt-get install -y opam
 
-# Initialize OPAM yup
+# Initialize OPAM
 RUN opam init -y
 
 # Set up environment for OPAM 
